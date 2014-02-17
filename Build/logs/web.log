@@ -1,0 +1,488 @@
+[2014-02-13 10:00:43.518] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/index.html
+[2014-02-13 10:00:43.522] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:01:51.950] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index
+[2014-02-13 10:02:40.466] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index
+[2014-02-13 10:02:40.470] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index
+[2014-02-13 10:05:40.090] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index
+[2014-02-13 10:05:40.096] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index
+[2014-02-13 10:05:40.097] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:05:40.204] [DEBUG] normal - 请求网址路径:/global/base.css
+[2014-02-13 10:09:27.524] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index
+[2014-02-13 10:09:27.529] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index
+[2014-02-13 10:09:27.530] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:09:27.613] [DEBUG] normal - 请求网址路径:/global/base.css
+[2014-02-13 10:12:00.694] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index
+[2014-02-13 10:12:00.698] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index
+[2014-02-13 10:12:00.699] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:12:00.779] [DEBUG] normal - 请求网址路径:/global/base.css
+[2014-02-13 10:12:00.779] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/base.css
+[2014-02-13 10:12:00.780] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/base.css
+[2014-02-13 10:12:00.780] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/base.css
+[2014-02-13 10:12:00.785] [DEBUG] normal - 请求网址路径:/Module/common.css
+[2014-02-13 10:12:00.786] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/common.css
+[2014-02-13 10:12:00.786] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/common.css
+[2014-02-13 10:12:00.786] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/common.css
+[2014-02-13 10:12:00.837] [DEBUG] normal - 请求网址路径:/Module/teacher.css
+[2014-02-13 10:12:00.838] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/teacher.css
+[2014-02-13 10:12:00.838] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/teacher.css
+[2014-02-13 10:12:00.838] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/teacher.css
+[2014-02-13 10:12:00.844] [DEBUG] normal - 请求网址路径:/global/jquery-1.8.2.min.js
+[2014-02-13 10:12:00.845] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery-1.8.2.min.js
+[2014-02-13 10:12:00.846] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery-1.8.2.min.js
+[2014-02-13 10:12:00.847] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery-1.8.2.min.js
+[2014-02-13 10:12:00.868] [DEBUG] normal - 请求网址路径:/global/jquery.artDialog.source.js
+[2014-02-13 10:12:00.868] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.artDialog.source.js
+[2014-02-13 10:12:00.868] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.artDialog.source.js
+[2014-02-13 10:12:00.868] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.artDialog.source.js
+[2014-02-13 10:12:00.872] [DEBUG] normal - 请求网址路径:/global/Validform_v5.3.2.js
+[2014-02-13 10:12:00.872] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/Validform_v5.3.2.js
+[2014-02-13 10:12:00.872] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/Validform_v5.3.2.js
+[2014-02-13 10:12:00.873] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/Validform_v5.3.2.js
+[2014-02-13 10:12:00.874] [DEBUG] normal - 请求网址路径:/global/jquery.cookies.js
+[2014-02-13 10:12:00.875] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.cookies.js
+[2014-02-13 10:12:00.875] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.cookies.js
+[2014-02-13 10:12:00.875] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/jquery.cookies.js
+[2014-02-13 10:12:00.882] [DEBUG] normal - 请求网址路径:/global/common.js
+[2014-02-13 10:12:00.882] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/common.js
+[2014-02-13 10:12:00.883] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/common.js
+[2014-02-13 10:12:00.884] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/global/common.js
+[2014-02-13 10:12:00.887] [DEBUG] normal - 请求网址路径:/Build/jsmart.js
+[2014-02-13 10:12:00.887] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 10:12:00.888] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 10:12:00.899] [DEBUG] normal - 请求网址路径:/Module/index.js
+[2014-02-13 10:12:00.899] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/index.js
+[2014-02-13 10:12:00.899] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/index.js
+[2014-02-13 10:12:00.899] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/index.js
+[2014-02-13 10:14:20.784] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 10:14:20.785] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 10:14:20.785] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:14:20.879] [DEBUG] normal - 请求网址路径:/Module/global/base.css
+[2014-02-13 10:14:20.879] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 10:14:20.879] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 10:14:20.885] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/common.css
+[2014-02-13 10:14:20.885] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 10:14:20.885] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 10:14:21.070] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/teacher.css
+[2014-02-13 10:14:21.070] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 10:14:21.070] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 10:14:21.081] [DEBUG] normal - 请求网址路径:/Module/global/jquery-1.8.2.min.js
+[2014-02-13 10:14:21.081] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 10:14:21.081] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 10:14:21.100] [DEBUG] normal - 请求网址路径:/Module/global/jquery.artDialog.source.js
+[2014-02-13 10:14:21.101] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 10:14:21.101] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 10:14:21.159] [DEBUG] normal - 请求网址路径:/Module/global/Validform_v5.3.2.js
+[2014-02-13 10:14:21.159] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 10:14:21.159] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 10:14:21.162] [DEBUG] normal - 请求网址路径:/Module/global/jquery.cookies.js
+[2014-02-13 10:14:21.162] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 10:14:21.162] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 10:14:21.169] [DEBUG] normal - 请求网址路径:/Module/global/common.js
+[2014-02-13 10:14:21.169] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 10:14:21.169] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 10:14:21.177] [DEBUG] normal - 请求网址路径:/Build/jsmart.js
+[2014-02-13 10:14:21.178] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 10:14:21.178] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 10:14:21.187] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/index.js
+[2014-02-13 10:14:21.187] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 10:14:21.187] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 10:14:21.500] [DEBUG] normal - 请求网址路径:/image/common/logo.gif
+[2014-02-13 10:14:21.500] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 10:14:21.500] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 10:14:21.501] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 10:14:21.506] [DEBUG] normal - 请求网址路径:/image/teacher/header_narrow_up.gif
+[2014-02-13 10:14:21.507] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 10:14:21.507] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 10:14:21.507] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 10:14:21.510] [DEBUG] normal - 请求网址路径:/image/paper/main_pic.png
+[2014-02-13 10:14:21.510] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 10:14:21.510] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 10:14:21.511] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 10:14:21.520] [DEBUG] normal - 请求网址路径:/image/paper/main_bg.png
+[2014-02-13 10:14:21.521] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 10:14:21.521] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 10:14:21.522] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 10:14:21.530] [DEBUG] normal - 请求网址路径:/image/main_icon.png
+[2014-02-13 10:14:21.530] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 10:14:21.530] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 10:14:21.530] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 10:14:24.083] [DEBUG] normal - 请求网址路径:/Module/global/img/button33_bg.gif
+[2014-02-13 10:14:24.083] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/button33_bg.gif
+[2014-02-13 10:14:24.083] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/button33_bg.gif
+[2014-02-13 10:14:24.100] [DEBUG] normal - 请求网址路径:/Module/global/img/loading.gif
+[2014-02-13 10:14:24.100] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/loading.gif
+[2014-02-13 10:14:24.100] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/loading.gif
+[2014-02-13 10:22:33.375] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 10:22:33.379] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 10:22:33.380] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:23:06.998] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 10:23:07.002] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 10:23:07.003] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:23:52.333] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 10:23:52.338] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 10:23:52.339] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 10:23:52.343] [DEBUG] normal - 待转换Smarty模板:undefined
+[2014-02-13 12:03:08.557] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:03:08.561] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:03:08.562] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:03:08.570] [DEBUG] normal - <!DOCTYPE html><html><head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <title>ç¥è¯ç¹éé¢-æ¢¯å­ç½</title> <!--å¨ç«çå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="../global/base.css" /> <!--èå¸ç«¯çå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="common.css" /> <!--èå¸ç«¯çéå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="teacher.css" /></head><body class="headerQuestion"><span style="display:none;" id="base-url-con" tzid="TZID" tzu="TZU">http://www.tizi.com/</span><span class="token" id="c8889f634b5ab259f9330964aee310d5"></span><span class="pname" id="95c3bae84d6f8c8ae59d50b1376c1da4"></span><div class="header cf l50"> <h1 class="fl"> <a href="http://www.tizi.com/teacher/paper/question">æ¢¯å­</a> </h1> <ul class="fl"> <li class="question"><a href="http://www.tizi.com/teacher/paper/question"><span>åºå·å­</span></a></li> <li class="prepare"><a href="http://www.tizi.com/teacher/lesson/prepare"><span>å¤è¯¾</span></a></li> <li class="exercise"><a href="http://www.tizi.com/teacher/homework/center"><span>çä½ä¸</span></a></li> <li class="manage"><a href="http://www.tizi.com/teacher/class/my"><span>ç­çº§ç®¡ç</span></a></li> <li class="member"><a href="http://www.tizi.com/teacher/user/setting"><span>ä¸ªäººä¸­å¿</span></a></li> </ul> <div class="nav fr"> <!--ç¨æ·ä¸æèåå¼å§--> <div class="posr" id="navSlidown"> <span id="tiziUrname">asdfasdf</span> <p class="undis"> <a href="http://www.tizi.com/teacher/user/myquestion">æçé¢åº</a> <a href="http://www.tizi.com/teacher/user/mydocument">æçææ¡£åº</a> <a class="tab add" href="http://www.tizi.com/teacher/user/setting">ä¸ªäººèµæ</a> <a class="tab loginout" href="http://www.tizi.com/logout">éåºç»å½</a> </p> </div> <!--ç¨æ·ä¸æèåç»æ--> </div> <p class="fr"> <a id="notification" href="http://www.tizi.com/teacher/user/notification"><span class="noticeMsg"></span></a> <a href="javascript:void(0);" class="cBtnFeedback">åé¦</a> <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a> <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a> </p></div><!--ä¸»è¦é¨åå¼å§--><div class="wrap"> <div class="mainContent fl"> <div class="mainWrap main-wrap"> <div class="mainContainer" pagename="paper_question" status="paper_question"> <div class="child-content fn-clear"> <div class="content"> <div class="content-wrap"> <div class="filter-box"> <ul class="fn-clear"> <li><a href="javascript:void(0)" class="active" data-qtype="0">å¨é¨é¢å</a></li> <li><a href="javascript:void(0)" data-qtype="3">åéé¢</a></li> <li><a href="javascript:void(0)" data-qtype="8">ç°ä»£æéè¯»</a></li> <li><a href="javascript:void(0)" data-qtype="9">æè¨æéè¯»</a></li> <li><a href="javascript:void(0)" data-qtype="10">è¯æ­é´èµ</a></li> <li><a href="javascript:void(0)" data-qtype="11">è¯­è¨è¡¨è¾¾</a></li> <li><a href="javascript:void(0)" data-qtype="12">åèå¯¼è¯»</a></li> <li><a href="javascript:void(0)" data-qtype="13">é»å</a></li> <li><a href="javascript:void(0)" data-qtype="14">ä¹¦å</a></li> <li><a href="javascript:void(0)" data-qtype="16">ä½æ</a></li> <li><a href="javascript:void(0)" data-qtype="1">å¶ä»</a></li> </ul> <ul class="fn-clear"> <li><a href="javascript:void(0)" class="active" data-qlevel="0">å¨é¨é¾åº¦</a></li> <li><a href="javascript:void(0)" data-qlevel="1">å®¹æ</a></li> <li><a href="javascript:void(0)" data-qlevel="2">è¾æ</a></li> <li><a href="javascript:void(0)" data-qlevel="3">ä¸è¬</a></li> <li><a href="javascript:void(0)" data-qlevel="4">è¾é¾</a></li> <li><a href="javascript:void(0)" data-qlevel="5">å°é¾</a></li> </ul> </div> <div class="question-list"></div> </div> </div> <div class="child-menu"> <div class="drag-line"><a class="drag-handle"></a></div> <div class="type-box fn-clear"> <div class="type-list"> <!-- ä¸è½å é¤çaå¼å§ --> <a class="current-type" style="display:none" data-cselect="1" data-sid="1"><span>åä¸­è¯­æç»¼ååº</span></a> <!-- ä¸è½å é¤çaç»æ --> <select name="" id="" onchange="top.location=this.value;"> <option value="http://www.tizi.com/teacher/paper/question/1/1"selected> åä¸­è¯­æç»¼ååº </option> <option value="http://www.tizi.com/teacher/paper/question/1/11242"> åä¸­è¯­æé²æç </option> <option value="http://www.tizi.com/teacher/paper/question/1/11754"> åä¸­è¯­æèæç </option> <option value="http://www.tizi.com/teacher/paper/question/1/14771"> åä¸­è¯­æåå¸å¤§ç </option> <option value="http://www.tizi.com/teacher/paper/question/1/15178"> åä¸­è¯­æäººæç </option> </select> </div> </div> <div class="tree-list"> </div> </div> </div> </div> </div> </div> <div class="leftBar fl"> <div class="mainMenu main-menu fl"> <!--ä¸ªäººä¸­å¿å¼å§--> <script type="text/javascript" src="../../Component/TeacherSiderBar/TeacherSiderBar.js"></script> <!--ä¸ªäººä¸­å¿ç»æ--> </div> <div class="hidden-arrow fl"><a class="hide-menu"></a></div> </div></div><!--ä¸»è¦é¨åç»æ--><div id="errormsg" style="display:none"></div><div id="footer" class="footer"> <a href="http://www.tizi.com/about/us" target="_blank">å³äºæä»¬</a> <a href="http://www.tizi.com/about/report" target="_blank">åªä½æ¥é</a> <a href="http://www.tizi.com/about/school" target="_blank">å¢ä½å¸æ·ç³è¯·</a> <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a> <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a> <a class="cBtnFeedback" href="javascript:void(0);">åé¦</a> <span>Â©2013 tizi</span> <span>äº¬ICPå¤12050551å·</span> <span>äº¬å¬ç½å®å¤11010802012731å·</span></div><!--jså¼å¥å¼å§--><script type="text/template" id="crumb-line-content"> <a href="#">ç¥è¯ç¹éé¢</a> <%#breadcrumb%>/ <a href="#"><%.%></a> <%/breadcrumb%></script><script type="text/javascript" src="../global/jquery-1.8.2.min.js"></script><!--å¼å¥artdialogæä»¶--><script type="text/javascript" src="../global/jquery.artDialog.source.js"></script><!--å¼å¥Validform_v5.3.2_minæä»¶--><script type="text/javascript" src="../global/Validform_v5.3.2.js"></script><!--å¼å¥cookieæä»¶--><script type="text/javascript" src="../global/jquery.cookies.js"></script><!--å¬å±æ¹æ³ä»¥åéèå¸ãå­¦çãå®¶é¿ä¸ç«¯çjsæ¾å°common.js--><script type="text/javascript" src="../global/common.js"></script><!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ å¼å§ --><!--[if IE 6]><script type="text/javascript"> if($('.reset-btn').length > 0 && $('.question-item-box').length > 0){ $('.mainContent .mainWrap').css('margin-left','170px'); $('.leftBar').css('left','-40px'); }</script><![endif]--><!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ ç»æ --><script type="text/template" id="tree-list-content"> <ul style="display:block;"> <%#category%> <li class="fn-clear"><div class="fn-clear tree-title<%depth%>"><a href="javascript:void(0)" class="icon <%is_leaf%>" data-url_id="<%id%>"></a><a href="javascript:void(0)" class="item" data-nselect="<%id%>"><%name%></a></div></li> <%/category%> </ul></script><script type="text/javascript" src="../../Build/jsmart.js"></script><script type="text/javascript" src="index.js"></script><!--jså¼å¥ç»æ--></body></html>
+[2014-02-13 12:03:08.660] [DEBUG] normal - 请求网址路径:/Module/global/base.css
+[2014-02-13 12:03:08.661] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:03:08.661] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:03:08.723] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/common.css
+[2014-02-13 12:03:08.723] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:03:08.724] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:03:08.747] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/teacher.css
+[2014-02-13 12:03:08.747] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:03:08.748] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:03:08.763] [DEBUG] normal - 请求网址路径:/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:03:08.764] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:03:08.764] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:03:08.771] [DEBUG] normal - 请求网址路径:/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:03:08.771] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:03:08.771] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:03:08.815] [DEBUG] normal - 请求网址路径:/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:03:08.816] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:03:08.816] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:03:08.818] [DEBUG] normal - 请求网址路径:/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:03:08.820] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:03:08.820] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:03:08.821] [DEBUG] normal - 请求网址路径:/Module/global/jquery.cookies.js
+[2014-02-13 12:03:08.822] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:03:08.822] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:03:08.824] [DEBUG] normal - 请求网址路径:/Module/global/common.js
+[2014-02-13 12:03:08.825] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:03:08.825] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:03:08.827] [DEBUG] normal - 请求网址路径:/Build/jsmart.js
+[2014-02-13 12:03:08.828] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:03:08.828] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:03:08.842] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/index.js
+[2014-02-13 12:03:08.842] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:03:08.842] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:03:08.894] [DEBUG] normal - 请求网址路径:/image/common/logo.gif
+[2014-02-13 12:03:08.895] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:03:08.895] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:03:08.895] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:03:08.896] [DEBUG] normal - 请求网址路径:/image/teacher/header_narrow_up.gif
+[2014-02-13 12:03:08.896] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:03:08.897] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:03:08.897] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:03:08.907] [DEBUG] normal - 请求网址路径:/image/paper/main_pic.png
+[2014-02-13 12:03:08.908] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:03:08.908] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:03:08.908] [DEBUG] normal - 请求网址路径:/image/paper/main_bg.png
+[2014-02-13 12:03:08.908] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:03:08.908] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:03:08.909] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:03:08.909] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:03:08.918] [DEBUG] normal - 请求网址路径:/image/main_icon.png
+[2014-02-13 12:03:08.919] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:03:08.919] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:03:08.919] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:06:21.376] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:06:21.380] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:06:21.381] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:06:21.385] [DEBUG] normal - <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ç¥è¯ç¹éé¢-æ¢¯å­ç½</title>
+    <!--å¨ç«çå¬å±æ ·å¼æä»¶-->
+    <link rel="stylesheet" type="text/css" href="../global/base.css" />
+    <!--èå¸ç«¯çå¬å±æ ·å¼æä»¶-->
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <!--èå¸ç«¯çéå¬å±æ ·å¼æä»¶-->
+    <link rel="stylesheet" type="text/css" href="teacher.css" />
+</head>
+
+<body class="headerQuestion">
+
+<span style="display:none;" id="base-url-con" tzid="TZID" tzu="TZU">http://www.tizi.com/</span>
+<span class="token" id="c8889f634b5ab259f9330964aee310d5"></span>
+<span class="pname" id="95c3bae84d6f8c8ae59d50b1376c1da4"></span>
+<div class="header cf l50">
+    <h1 class="fl">
+        <a href="http://www.tizi.com/teacher/paper/question">æ¢¯å­</a>
+    </h1>
+    <ul class="fl">
+        <li class="question"><a href="http://www.tizi.com/teacher/paper/question"><span>åºå·å­</span></a></li>
+        <li class="prepare"><a href="http://www.tizi.com/teacher/lesson/prepare"><span>å¤è¯¾</span></a></li>
+        <li class="exercise"><a href="http://www.tizi.com/teacher/homework/center"><span>çä½ä¸</span></a></li>
+        <li class="manage"><a href="http://www.tizi.com/teacher/class/my"><span>ç­çº§ç®¡ç</span></a></li>
+        <li class="member"><a href="http://www.tizi.com/teacher/user/setting"><span>ä¸ªäººä¸­å¿</span></a></li>
+    </ul>
+    <div class="nav fr">
+        <!--ç¨æ·ä¸æèåå¼å§-->
+        <div class="posr" id="navSlidown">
+            <span id="tiziUrname">asdfasdf</span>
+            <p class="undis">
+                <a href="http://www.tizi.com/teacher/user/myquestion">æçé¢åº</a>
+                <a href="http://www.tizi.com/teacher/user/mydocument">æçææ¡£åº</a>
+                <a class="tab add" href="http://www.tizi.com/teacher/user/setting">ä¸ªäººèµæ</a>
+                <a class="tab loginout" href="http://www.tizi.com/logout">éåºç»å½</a>
+            </p>
+        </div>
+        <!--ç¨æ·ä¸æèåç»æ-->
+    </div>
+    <p class="fr">
+        <a id="notification" href="http://www.tizi.com/teacher/user/notification"><span class="noticeMsg"></span></a>
+        <a href="javascript:void(0);" class="cBtnFeedback">åé¦</a>|
+        <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a>|
+        <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a>
+    </p>
+</div>
+
+<!--ä¸»è¦é¨åå¼å§-->
+<div class="wrap">
+    <div class="mainContent fl">
+        <div class="mainWrap main-wrap">
+
+            <div class="mainContainer" pagename="paper_question" status="paper_question">
+                <div class="child-content fn-clear">
+                    <div class="content">
+                        <div class="content-wrap">
+                            <div class="filter-box">
+                                <ul class="fn-clear">
+                                    <li><a href="javascript:void(0)"  class="active"  data-qtype="0">å¨é¨é¢å</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="3">åéé¢</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="8">ç°ä»£æéè¯»</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="9">æè¨æéè¯»</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="10">è¯æ­é´èµ</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="11">è¯­è¨è¡¨è¾¾</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="12">åèå¯¼è¯»</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="13">é»å</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="14">ä¹¦å</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="16">ä½æ</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="1">å¶ä»</a></li>
+
+                                </ul>
+                                <ul class="fn-clear">
+                                    <li><a href="javascript:void(0)"  class="active"  data-qlevel="0">å¨é¨é¾åº¦</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="1">å®¹æ</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="2">è¾æ</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="3">ä¸è¬</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="4">è¾é¾</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="5">å°é¾</a></li>
+                                </ul>
+                            </div>
+                            <div class="question-list"></div>
+                        </div>
+                    </div>
+                    <div class="child-menu">
+                        <div class="drag-line"><a class="drag-handle"></a></div>
+                        <div class="type-box fn-clear">
+                            <div class="type-list">
+                                <!-- ä¸è½å é¤çaå¼å§ -->
+                                <a class="current-type" style="display:none" data-cselect="1" data-sid="1"><span>åä¸­è¯­æç»¼ååº</span></a>
+                                <!-- ä¸è½å é¤çaç»æ -->
+                                <select name="" id="" onchange="top.location=this.value;">
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/1"selected>
+                                        åä¸­è¯­æç»¼ååº
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/11242">
+                                        åä¸­è¯­æé²æç
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/11754">
+                                        åä¸­è¯­æèæç
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/14771">
+                                        åä¸­è¯­æåå¸å¤§ç
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/15178">
+                                        åä¸­è¯­æäººæç
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="tree-list">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="leftBar fl">
+        <div class="mainMenu main-menu fl">
+            <!--ä¸ªäººä¸­å¿å¼å§-->
+            {include file=../../Component/TeacherSiderBar/TeacherSiderBar.smarty}
+            <!--ä¸ªäººä¸­å¿ç»æ-->
+        </div>
+        <div class="hidden-arrow fl"><a class="hide-menu"></a></div>
+    </div>
+</div>
+<!--ä¸»è¦é¨åç»æ-->
+<div id="errormsg" style="display:none"></div>
+<div id="footer" class="footer">
+    <a href="http://www.tizi.com/about/us" target="_blank">å³äºæä»¬</a> | <a href="http://www.tizi.com/about/report" target="_blank">åªä½æ¥é</a> | <a href="http://www.tizi.com/about/school" target="_blank">å¢ä½å¸æ·ç³è¯·</a> | <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a> | <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a> | <a class="cBtnFeedback" href="javascript:void(0);">åé¦</a> | 	<span>Â©2013 tizi</span>
+    <span>äº¬ICPå¤12050551å·</span>
+    <span>äº¬å¬ç½å®å¤11010802012731å·</span>
+</div>
+
+<!--jså¼å¥å¼å§-->
+
+<script type="text/template" id="crumb-line-content">
+    <a href="#">ç¥è¯ç¹éé¢</a> <%#breadcrumb%>/ <a href="#"><%.%></a> <%/breadcrumb%>
+</script>
+<script type="text/javascript" src="../global/jquery-1.8.2.min.js"></script>
+<!--å¼å¥artdialogæä»¶-->
+<script type="text/javascript" src="../global/jquery.artDialog.source.js"></script>
+<!--å¼å¥Validform_v5.3.2_minæä»¶-->
+<script type="text/javascript" src="../global/Validform_v5.3.2.js"></script>
+<!--å¼å¥cookieæä»¶-->
+<script type="text/javascript" src="../global/jquery.cookies.js"></script>
+<!--å¬å±æ¹æ³ä»¥åéèå¸ãå­¦çãå®¶é¿ä¸ç«¯çjsæ¾å°common.js-->
+<script type="text/javascript" src="../global/common.js"></script>
+<!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ å¼å§ -->
+<!--[if IE 6]>
+<script type="text/javascript">
+    if($('.reset-btn').length > 0 && $('.question-item-box').length > 0){
+        $('.mainContent .mainWrap').css('margin-left','170px');
+        $('.leftBar').css('left','-40px');
+    }
+</script>
+<![endif]-->
+<!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ ç»æ -->
+<script type="text/template" id="tree-list-content">
+    <ul style="display:block;">
+        <%#category%>
+        <li class="fn-clear"><div class="fn-clear tree-title<%depth%>"><a href="javascript:void(0)" class="icon <%is_leaf%>" data-url_id="<%id%>"></a><a href="javascript:void(0)" class="item" data-nselect="<%id%>"><%name%></a></div></li>
+        <%/category%>
+    </ul>
+</script>
+<script type="text/javascript" src="../../Build/jsmart.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<!--jså¼å¥ç»æ-->
+</body>
+</html>
+
+[2014-02-13 12:06:21.512] [DEBUG] normal - 请求网址路径:/Module/global/base.css
+[2014-02-13 12:06:21.513] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:06:21.513] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:06:21.518] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/common.css
+[2014-02-13 12:06:21.518] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:06:21.518] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:06:21.526] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/teacher.css
+[2014-02-13 12:06:21.527] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:06:21.527] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:06:21.580] [DEBUG] normal - 请求网址路径:/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:06:21.580] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:06:21.580] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:06:21.581] [DEBUG] normal - 请求网址路径:/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:06:21.583] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:06:21.583] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:06:21.583] [DEBUG] normal - 请求网址路径:/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:06:21.584] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:06:21.584] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:06:21.584] [DEBUG] normal - 请求网址路径:/Module/global/jquery.cookies.js
+[2014-02-13 12:06:21.584] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:06:21.585] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:06:21.585] [DEBUG] normal - 请求网址路径:/Module/global/common.js
+[2014-02-13 12:06:21.585] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:06:21.586] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:06:21.588] [DEBUG] normal - 请求网址路径:/Build/jsmart.js
+[2014-02-13 12:06:21.591] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:06:21.591] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:06:21.597] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/index.js
+[2014-02-13 12:06:21.597] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:06:21.598] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:06:21.732] [DEBUG] normal - 请求网址路径:/image/common/logo.gif
+[2014-02-13 12:06:21.732] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:06:21.732] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:06:21.733] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:06:21.749] [DEBUG] normal - 请求网址路径:/image/teacher/header_narrow_up.gif
+[2014-02-13 12:06:21.749] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:06:21.750] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:06:21.750] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:06:21.753] [DEBUG] normal - 请求网址路径:/image/paper/main_pic.png
+[2014-02-13 12:06:21.753] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:06:21.753] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:06:21.754] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:06:21.755] [DEBUG] normal - 请求网址路径:/image/paper/main_bg.png
+[2014-02-13 12:06:21.756] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:06:21.756] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:06:21.756] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:06:21.758] [DEBUG] normal - 请求网址路径:/image/main_icon.png
+[2014-02-13 12:06:21.758] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:06:21.758] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:06:21.758] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:06:21.968] [DEBUG] normal - 请求网址路径:/Module/global/img/button33_bg.gif
+[2014-02-13 12:06:21.968] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/button33_bg.gif
+[2014-02-13 12:06:21.968] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/button33_bg.gif
+[2014-02-13 12:06:21.977] [DEBUG] normal - 请求网址路径:/Module/global/img/loading.gif
+[2014-02-13 12:06:21.977] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/loading.gif
+[2014-02-13 12:06:21.977] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/img/loading.gif
+[2014-02-13 12:10:28.849] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:10:28.854] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:10:28.855] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:10:28.860] [DEBUG] normal - 
+[2014-02-13 12:49:46.787] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:49:46.793] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:49:46.794] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:49:46.799] [DEBUG] normal - 
+[2014-02-13 12:49:49.064] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:49:49.064] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:49:49.064] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:49:49.065] [DEBUG] normal - 
+[2014-02-13 12:53:04.771] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:53:04.779] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:53:04.780] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:53:04.790] [DEBUG] normal - <!DOCTYPE html><html><head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <title>ç¥è¯ç¹éé¢-æ¢¯å­ç½</title> <!--å¨ç«çå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="../global/base.css" /> <!--èå¸ç«¯çå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="common.css" /> <!--èå¸ç«¯çéå¬å±æ ·å¼æä»¶--> <link rel="stylesheet" type="text/css" href="teacher.css" /></head><body class="headerQuestion"><span style="display:none;" id="base-url-con" tzid="TZID" tzu="TZU">http://www.tizi.com/</span><span class="token" id="c8889f634b5ab259f9330964aee310d5"></span><span class="pname" id="95c3bae84d6f8c8ae59d50b1376c1da4"></span><div class="header cf l50"> <h1 class="fl"> <a href="http://www.tizi.com/teacher/paper/question">æ¢¯å­</a> </h1> <ul class="fl"> <li class="question"><a href="http://www.tizi.com/teacher/paper/question"><span>åºå·å­</span></a></li> <li class="prepare"><a href="http://www.tizi.com/teacher/lesson/prepare"><span>å¤è¯¾</span></a></li> <li class="exercise"><a href="http://www.tizi.com/teacher/homework/center"><span>çä½ä¸</span></a></li> <li class="manage"><a href="http://www.tizi.com/teacher/class/my"><span>ç­çº§ç®¡ç</span></a></li> <li class="member"><a href="http://www.tizi.com/teacher/user/setting"><span>ä¸ªäººä¸­å¿</span></a></li> </ul> <div class="nav fr"> <!--ç¨æ·ä¸æèåå¼å§--> <div class="posr" id="navSlidown"> <span id="tiziUrname">asdfasdf</span> <p class="undis"> <a href="http://www.tizi.com/teacher/user/myquestion">æçé¢åº</a> <a href="http://www.tizi.com/teacher/user/mydocument">æçææ¡£åº</a> <a class="tab add" href="http://www.tizi.com/teacher/user/setting">ä¸ªäººèµæ</a> <a class="tab loginout" href="http://www.tizi.com/logout">éåºç»å½</a> </p> </div> <!--ç¨æ·ä¸æèåç»æ--> </div> <p class="fr"> <a id="notification" href="http://www.tizi.com/teacher/user/notification"><span class="noticeMsg"></span></a> <a href="javascript:void(0);" class="cBtnFeedback">åé¦</a> <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a> <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a> </p></div><!--ä¸»è¦é¨åå¼å§--><div class="wrap"> <div class="mainContent fl"> <div class="mainWrap main-wrap"> <div class="mainContainer" pagename="paper_question" status="paper_question"> <div class="child-content fn-clear"> <div class="content"> <div class="content-wrap"> <div class="filter-box"> <ul class="fn-clear"> <li><a href="javascript:void(0)" class="active" data-qtype="0">å¨é¨é¢å</a></li> <li><a href="javascript:void(0)" data-qtype="3">åéé¢</a></li> <li><a href="javascript:void(0)" data-qtype="8">ç°ä»£æéè¯»</a></li> <li><a href="javascript:void(0)" data-qtype="9">æè¨æéè¯»</a></li> <li><a href="javascript:void(0)" data-qtype="10">è¯æ­é´èµ</a></li> <li><a href="javascript:void(0)" data-qtype="11">è¯­è¨è¡¨è¾¾</a></li> <li><a href="javascript:void(0)" data-qtype="12">åèå¯¼è¯»</a></li> <li><a href="javascript:void(0)" data-qtype="13">é»å</a></li> <li><a href="javascript:void(0)" data-qtype="14">ä¹¦å</a></li> <li><a href="javascript:void(0)" data-qtype="16">ä½æ</a></li> <li><a href="javascript:void(0)" data-qtype="1">å¶ä»</a></li> </ul> <ul class="fn-clear"> <li><a href="javascript:void(0)" class="active" data-qlevel="0">å¨é¨é¾åº¦</a></li> <li><a href="javascript:void(0)" data-qlevel="1">å®¹æ</a></li> <li><a href="javascript:void(0)" data-qlevel="2">è¾æ</a></li> <li><a href="javascript:void(0)" data-qlevel="3">ä¸è¬</a></li> <li><a href="javascript:void(0)" data-qlevel="4">è¾é¾</a></li> <li><a href="javascript:void(0)" data-qlevel="5">å°é¾</a></li> </ul> </div> <div class="question-list"></div> </div> </div> <div class="child-menu"> <div class="drag-line"><a class="drag-handle"></a></div> <div class="type-box fn-clear"> <div class="type-list"> <!-- ä¸è½å é¤çaå¼å§ --> <a class="current-type" style="display:none" data-cselect="1" data-sid="1"><span>åä¸­è¯­æç»¼ååº</span></a> <!-- ä¸è½å é¤çaç»æ --> <select name="" id="" onchange="top.location=this.value;"> <option value="http://www.tizi.com/teacher/paper/question/1/1"selected> åä¸­è¯­æç»¼ååº </option> <option value="http://www.tizi.com/teacher/paper/question/1/11242"> åä¸­è¯­æé²æç </option> <option value="http://www.tizi.com/teacher/paper/question/1/11754"> åä¸­è¯­æèæç </option> <option value="http://www.tizi.com/teacher/paper/question/1/14771"> åä¸­è¯­æåå¸å¤§ç </option> <option value="http://www.tizi.com/teacher/paper/question/1/15178"> åä¸­è¯­æäººæç </option> </select> </div> </div> <div class="tree-list"> </div> </div> </div> </div> </div> </div> <div class="leftBar fl"> <div class="mainMenu main-menu fl"> <!--ä¸ªäººä¸­å¿å¼å§--> <script type="text/javascript" src="../../Component/TeacherSiderBar/TeacherSiderBar.js"></script> <!--ä¸ªäººä¸­å¿ç»æ--> </div> <div class="hidden-arrow fl"><a class="hide-menu"></a></div> </div></div><!--ä¸»è¦é¨åç»æ--><div id="errormsg" style="display:none"></div><div id="footer" class="footer"> <a href="http://www.tizi.com/about/us" target="_blank">å³äºæä»¬</a> <a href="http://www.tizi.com/about/report" target="_blank">åªä½æ¥é</a> <a href="http://www.tizi.com/about/school" target="_blank">å¢ä½å¸æ·ç³è¯·</a> <a href="http://www.tizi.com/about/contact" target="_blank">åä½</a> <a href="http://www.tizi.com/about/join" target="_blank">å å¥æä»¬</a> <a class="cBtnFeedback" href="javascript:void(0);">åé¦</a> <span>Â©2013 tizi</span> <span>äº¬ICPå¤12050551å·</span> <span>äº¬å¬ç½å®å¤11010802012731å·</span></div><!--jså¼å¥å¼å§--><script type="text/template" id="crumb-line-content"> <a href="#">ç¥è¯ç¹éé¢</a> <%#breadcrumb%>/ <a href="#"><%.%></a> <%/breadcrumb%></script><script type="text/javascript" src="../global/jquery-1.8.2.min.js"></script><!--å¼å¥artdialogæä»¶--><script type="text/javascript" src="../global/jquery.artDialog.source.js"></script><!--å¼å¥Validform_v5.3.2_minæä»¶--><script type="text/javascript" src="../global/Validform_v5.3.2.js"></script><!--å¼å¥cookieæä»¶--><script type="text/javascript" src="../global/jquery.cookies.js"></script><!--å¬å±æ¹æ³ä»¥åéèå¸ãå­¦çãå®¶é¿ä¸ç«¯çjsæ¾å°common.js--><script type="text/javascript" src="../global/common.js"></script><!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ å¼å§ --><!--[if IE 6]><script type="text/javascript"> if($('.reset-btn').length > 0 && $('.question-item-box').length > 0){ $('.mainContent .mainWrap').css('margin-left','170px'); $('.leftBar').css('left','-40px'); }</script><![endif]--><!-- è§£å³ie6ä¸åºå·å­é¢è§é¡µé¢éä½ ç»æ --><script type="text/template" id="tree-list-content"> <ul style="display:block;"> <%#category%> <li class="fn-clear"><div class="fn-clear tree-title<%depth%>"><a href="javascript:void(0)" class="icon <%is_leaf%>" data-url_id="<%id%>"></a><a href="javascript:void(0)" class="item" data-nselect="<%id%>"><%name%></a></div></li> <%/category%> </ul></script><script type="text/javascript" src="../../Build/jsmart.js"></script><script type="text/javascript" src="index.js"></script><!--jså¼å¥ç»æ--></body></html>
+[2014-02-13 12:53:04.993] [DEBUG] normal - 请求网址路径:/Module/global/base.css
+[2014-02-13 12:53:04.993] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:53:04.994] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/base.css
+[2014-02-13 12:53:04.996] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/common.css
+[2014-02-13 12:53:04.996] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:53:04.996] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/common.css
+[2014-02-13 12:53:04.998] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/teacher.css
+[2014-02-13 12:53:04.998] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:53:04.998] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/teacher.css
+[2014-02-13 12:53:05.003] [DEBUG] normal - 请求网址路径:/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:53:05.003] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:53:05.003] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Component/TeacherSiderBar/TeacherSiderBar.js
+[2014-02-13 12:53:05.004] [DEBUG] normal - 请求网址路径:/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:53:05.004] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:53:05.004] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery-1.8.2.min.js
+[2014-02-13 12:53:05.016] [DEBUG] normal - 请求网址路径:/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:53:05.017] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:53:05.017] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.artDialog.source.js
+[2014-02-13 12:53:05.020] [DEBUG] normal - 请求网址路径:/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:53:05.021] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:53:05.022] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/Validform_v5.3.2.js
+[2014-02-13 12:53:05.026] [DEBUG] normal - 请求网址路径:/Module/global/jquery.cookies.js
+[2014-02-13 12:53:05.026] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:53:05.026] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/jquery.cookies.js
+[2014-02-13 12:53:05.032] [DEBUG] normal - 请求网址路径:/Module/global/common.js
+[2014-02-13 12:53:05.033] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:53:05.033] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/global/common.js
+[2014-02-13 12:53:05.037] [DEBUG] normal - 请求网址路径:/Build/jsmart.js
+[2014-02-13 12:53:05.037] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:53:05.038] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Build/jsmart.js
+[2014-02-13 12:53:05.041] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/index.js
+[2014-02-13 12:53:05.041] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:53:05.042] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.js
+[2014-02-13 12:53:05.214] [DEBUG] normal - 请求网址路径:/image/common/logo.gif
+[2014-02-13 12:53:05.214] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:53:05.214] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:53:05.214] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/common/logo.gif
+[2014-02-13 12:53:05.219] [DEBUG] normal - 请求网址路径:/image/teacher/header_narrow_up.gif
+[2014-02-13 12:53:05.219] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:53:05.219] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:53:05.219] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/teacher/header_narrow_up.gif
+[2014-02-13 12:53:05.237] [DEBUG] normal - 请求网址路径:/image/paper/main_pic.png
+[2014-02-13 12:53:05.237] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:53:05.237] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:53:05.238] [DEBUG] normal - 请求网址路径:/image/paper/main_bg.png
+[2014-02-13 12:53:05.238] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:53:05.238] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:53:05.239] [DEBUG] normal - 请求网址路径:/image/main_icon.png
+[2014-02-13 12:53:05.240] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:53:05.240] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:53:05.240] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_pic.png
+[2014-02-13 12:53:05.240] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/paper/main_bg.png
+[2014-02-13 12:53:05.241] [DEBUG] normal - 找不到资源:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/image/main_icon.png
+[2014-02-13 12:53:50.513] [DEBUG] normal - 请求网址路径:/Module/Teacher_Index/
+[2014-02-13 12:53:50.517] [DEBUG] normal - 本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/
+[2014-02-13 12:53:50.518] [DEBUG] normal - 完整本地路径:/home/simon/svn/Trunk/Development/Source/08.CommonFramework/Module/Teacher_Index/index.html
+[2014-02-13 12:53:50.524] [DEBUG] normal - asdfasdf

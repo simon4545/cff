@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>C.F.F前端模块化开发</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
+    <!-- Extras CSS -->
+    <link href="assets/google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+<body>
+
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-sm" href="/">C.F.F前端模块化开发</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#index">首页</a></li>
+                <li><a href="#how-to-use">开始使用</a></li>
+                <li><a href="#demo">网站实例</a></li>
+                <li><a href="#more">发现更多</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active masthead">
+            <div class="masthead-bg"></div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>C.F.F</h1>
+
+                    <h2>模块化,低耦合，高重用的前端开发框架。</h2>
+
+                    <p>
+                        <a class="btn btn-lg btn-primary btn-shadow bs3-link" href="#" target="_blank" role="button">C.F.F安装包(v0.1.1)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bc-social">
+    <div class="container">
+        <ul class="bc-social-buttons">
+            <li>
+                <span class="label label-success">CFF开发QQ群:</span>308717188
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container">
+    <section id="index">
+        <div class="row">
+            <h1>什么是C.F.F</h1>
+            <p>
+                前端团队发展大多会经历规范设计、技术选型、系统拆分、性能优化等阶段，我们将其中的技术需求总结为 前端集成解决方案。通常，一套完整的前端技术解决方案包括四个方向：
+                <img src="/assets/img/front-flow.png"/>
+            </p>
+            <p>
+                这样的过程每天都在前端界上演，那么，有没有办法让这个过程简化，让前端团队可以快速进入角色，而且不用担心未来的自动化、性能优化等问题呢？ <strong>答案是肯定的！</strong>
+            </p>
+        </div>
+    </section>
+    <section id="how-to-use">
+        <div class="row">
+            <h1>开始使用C.F.F</h1>
+            <blockquote>C.F.F提供了一套完整的前端开发及编译，部署的方案。借助C.F.F的Mock机制，前端开发人员可以完全脱离后台环境开发，并可以在项目集成时无缝切换到真实的数据环境。</blockquote>
+            <h3>安装C.F.F</h3>
+
+            <p>
+                C.F.F是完全免安装、免前置条件的，可以在Windos/Linux/Mac系统下全功能运行。但目前项目并未放入公网中，如有需要请联系<code>xlzhou2@iflytek.com</code>
+            </p>
+
+            <h3>运行C.F.F</h3>
+
+            <p>只需要下列简单的<strong>4步</strong>就可以在Linux/Window/Mac环境下成功运行C.F.F</p>
+            <ol>
+                <li>将C.F.F的安装包解压至网站任一级目录下(推荐网站根目录,假定Windows下为<code>D:\\www</code>，Linux/Mac下为<code>/var/www</code>)</li>
+                <li>进入<code>D:\\www\\Build</code>目录</li>
+                <li>
+                    运行C.F.F网页服务器
+                    <ul>
+                        <li>Linux环境:执行<code>node /var/www/Build/service.js</code></li>
+                        <li>Windows环境:双击运行<code>D:\\www\\Build\\dev.bat</code></li>
+                    </ul>
+                </li>
+                <li>打开浏览器访问<code>http://127.0.0.1:8006</code></li>
+            </ol>
+        </div>
+    </section>
+    <section id="demo">
+        <div class="row">
+            <h1>开发一个案例网站</h1>
+            <h3>从Hello World开始</h3>
+            <p>
+            <ul>
+                <li>Linux环境:进入<code>/var/www/Module</code>目录</li>
+                <li>Windows环境:进入<code>D:\\www\\Module</code>目录</li>
+            </ul>
+            <ol>
+                <li>
+                    在当前目录下,新建<strong>HelloWorld</strong>目录，并在该目录下新建<code>index.html</code>,<code>index.js</code>(非必须),<code>index.css</code>(非必须)
+                </li>
+                <li>在<code>index.html</code>文件中写入html代码
+                    <pre class="prettyprint lang-html">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+                        &lt;title&gt;
+                        知识点选题-梯子网
+                        &lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        Hello World!
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </pre>
+                </li>
+                <li>访问<code>http://127.0.0.1:8006/Module/HelloWorld/</code></li>
+            </ol>
+            <strong>到这里，一个简单的HelloWorld页面就建成了，访问试试吧!</strong>
+            </p>
+
+            <h3>基于Smarty模板+模拟数据的动态网页</h3>
+
+            <p>
+                C.F.F内嵌Smarty语法支持，所以不需要做额外的工作，就可以很轻松的基于Smarty模板开发网站,并可以轻松的创建模拟后端假数据。
+            <ul>
+                <li>Linux环境:进入<code>/var/www/Module/HelloWorld</code>目录</li>
+                <li>Windows环境:进入<code>D:\\www\\Module\\HelloWorld</code>目录</li>
+            </ul>
+            <ol>
+                <li>
+                    修改<code>index.html</code>文件如下:
+                    <pre class="prettyprint lang-html">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+                        &lt;title&gt;
+                        知识点选题-梯子网
+                        &lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        Hello {literal}{$who},I'm {$age}{/literal} years old!
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </pre>
+                </li>
+                <li>在当前目录创建<code>data.json</code>文件，内容如下:
+                    <pre class="prettyprint">
+                        {
+                            "who":"World",
+                            "age":"23"
+                        }
+                    </pre>
+                </li>
+                <li>访问<code>http://127.0.0.1:8006/Module/HelloWorld/</code></li>
+            </ol>
+            到这里，Smarty模板并集成假数据的页面就建成了!C.F.F实现了Smarty 90%语法支持，还有很多标签可以使用...<strong>前端调试后端数据就是这么轻松!</strong>
+            </p>
+            <h3>基于AJAX+模拟数据的动态网页</h3>
+
+            <p>
+                C.F.F支持<strong>正则表达式</strong>或<strong>字符串匹配</strong>两种方式创建模拟后端假数据。
+            <ul>
+                <li>Linux环境:进入<code>/var/www/Module/HelloWorld</code>目录</li>
+                <li>Windows环境:进入<code>D:\\www\\Module\\HelloWorld</code>目录</li>
+            </ul>
+            <ol>
+                <li>
+                    修改<code>index.html</code>文件如下:
+                    <pre class="prettyprint lang-html">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+                        &lt;title&gt;
+                        知识点选题-梯子网
+                        &lt;/title&gt;
+                        &lt;script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        Hello {literal}{$who},I'm {$age}{/literal} years old!
+                        &lt;script type=&quot;text/javascript&quot;&gt;
+                            $.get(&#39;/index.php?app=resource&amp;mod=Homepage&amp;act=index&#39;,function(result){
+                                $(&quot;body&quot;).html(result);
+                            });
+                        &lt;/script&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </pre>
+                </li>
+                <li>在当前目录创建<code>route.json</code>文件(如果已有，则不必重复创建)，内容如下:
+                    <pre class="prettyprint">
+                        [
+                            {"key":"/index.php?app=resource&mod=Homepage&act=index","value":"data.json"}
+                        ]
+                    </pre>
+                </li>
+                <li>访问<code>http://127.0.0.1:8006/Module/HelloWorld/</code>,AJAX请求<code>/index.php?app=resource&mod=Homepage&act=index</code>,则会指向到
+                    <ul>
+                        <li>Linux环境下的<code>/var/www/Module/HelloWorld/data.json</code>文件</li>
+                        <li>Windows环境:进入<code>D:\\www\\Module\\HelloWorld\\data.json</code>文件</li>
+                    </ul></li>
+
+            </ol>
+            <blockquote><code>route.json</code>支持多条解析，我们可以结合正则实现按传入参数加载不同的Mock数据
+                <ol>
+                    <li>修改<code>route.json</code>文件如下:
+                        <pre class="prettyprint">
+                        [
+                            {"key":"/index.php?app=resource&mod=Homepage&act=index","value":"data.json"},
+                            {"key":/\\/index\\.php\\?app=resource&mod=(\w+)&act=(\d+)/i,"value":"data_$1_$2.json"}
+                        ]
+                    </pre>
+                    </li>
+                    <li>
+                        C.F.F路由引擎会把正则匹配的分组自动替换到<em class="text-info">$1</em>,<em class="text-info">$2</em>,<em class="text-info">$n</em>...
+                    </li>
+                    <li>
+                        修改<code>index.html</code>文件如下:
+                    <pre class="prettyprint lang-html">
+                        &lt;!DOCTYPE html&gt;
+                        &lt;html&gt;
+                        &lt;head&gt;
+                        &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+                        &lt;title&gt;
+                        知识点选题-梯子网
+                        &lt;/title&gt;
+                        &lt;script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                        Hello {literal}{$who},I'm {$age}{/literal} years old!
+                        &lt;script type=&quot;text/javascript&quot;&gt;
+                            $.get(&#39;/index.php?app=resource&amp;mod=test&amp;act=212&#39;,function(result){
+                                $(&quot;body&quot;).html(result);
+                            });
+                        &lt;/script&gt;
+                        &lt;/body&gt;
+                        &lt;/html&gt;
+                    </pre>
+                    </li>
+                    <li>
+                        再次访问<code>http://127.0.0.1:8006/Module/HelloWorld/</code>,AJAX请求<code>/index.php?app=resource&mod=test&act=212</code>,则会指向到
+                        <ul>
+                            <li>Linux环境下的<code>/var/www/Module/HelloWorld/data_test_212.json</code>文件</li>
+                            <li>Windows环境:进入<code>D:\\www\\Module\\HelloWorld\\data_test_212.json</code>文件</li>
+                        </ul>
+                    </li>
+                </ol>
+            </blockquote>
+            到这里，Smarty模板+AJAX页面就建成了!<strong>前端调试后端数据就是这么轻松!</strong>
+            </p>
+        </div>
+    </section>
+    <section id="more">
+        <div class="row">
+            <h1>发现C.F.F更多的特性</h1>
+            <ul>
+                <li>使用页面调用<strong>Component</strong>目录下的公共组件,使用Smarty的include语法既可。C.F.F会连同公共组件中的Mock数据/JavaScript/CSS一同加载。
+                    <ul>
+                        <li>无需再次Mock数据，及复制粘贴JavaScript/CSS目录，在主页面调用多个公共组件会更加方便</li>
+                        <li>调用者无需了解被调用者的业务、数据，只需一行代码完全集成</li>
+                    </ul>
+                </li>
+                <li>公共组件开发者在<strong>Component</strong>目录下<code>index.html</code>也可以写入一些demo代码用于调试，,为公共组件开发尽可能的还原真实场景。集成打包时会自动过滤这些调试代码。
+                <pre>访问页面http://127.0.0.1:8006/Component/目录名xxx/,实现了公共组件<strong class="text-danger">开发既调试，开发既Demo</strong>！</pre></li>
+                <li>C.F.F是支持分级路由的，有效的避免了协同开发中路由配置文件被占用的情况。如果项目不需要分级路由，只需要在根目录下建一个<code>route.json</code>即可。</li>
+                <li>不断更新中，邀请更多人加入，联系方式见上方QQ群</li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <div class="row">
+            <h1>关于C.F.F</h1>
+
+            <p>
+                不断维护中...
+            </p>
+
+        </div>
+    </section>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer ">
+    <p>Powered By Simon4545</p>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/dist/js/bootstrap.min.js"></script>
+<script src="assets/google-code-prettify/run_prettify.js"></script>
+
+
+</body>
+</html>

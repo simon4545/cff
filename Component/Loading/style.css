@@ -1,0 +1,15 @@
+.nc-load{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.2;
+    padding:15px;
+}
+.nc-load-icon{
+    padding-left:20px;
+    display: inline-block;
+    color:#FFF;
+}
+.loading-mask{
+    width:100%;
+    height:100%;
+}

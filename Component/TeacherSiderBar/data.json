@@ -1,0 +1,50 @@
+{
+    menu1: {
+        url: '#',
+        name: '知识点选题'
+    },
+    menu2: {
+        url: '#',
+        name: '搜索选题'
+    },
+    menu3: {
+        url: '#',
+        name: '智能选题'
+    },
+    menu4: {
+        url: '#',
+        name: '试卷预览'
+    },
+    menu5: {
+        url: '#',
+        name: '试卷存档'
+    },
+    subject: [{
+        name: '高中',
+        child: [{
+            url: '',
+            subject: '语文'
+        }, {
+            url: '',
+            subject: '数学'
+        }, {
+            url: '',
+            subject: '英语'
+        }, {
+            url: '',
+            subject: '地理'
+        }]
+    }, {
+        name: '初中',
+        child: [{
+            url: '',
+            subject: '语文'
+        }]
+    }, {
+        name: '小学',
+        child: [{
+            url: '',
+            subject: '语文'
+        }]
+    }]
+}

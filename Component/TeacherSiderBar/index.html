@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!--全站的公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="../../Module/global/base.css" />
+    <!--老师端的公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="../../Module/Teacher_Index/common.css" />
+    <!--老师端的非公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="../../Module/Teacher_Index/teacher.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="leftBar fl" style="margin-left:0">
+            <div class="mainMenu main-menu fl">   <!--template-->
+                <!--个人中心开始-->
+                <div class="memberCenter">
+                    <!-- 当前学科开始 -->
+                    <div class="currentSubject subject-chose posr" class="subject-chose" data-subject="4">
+                        <div class="hd">
+                            <h2 class="fl">当前学科:<span>初中物理</span></h2>
+                            <div class="changeSubjet fr">
+                                更换学科
+                                <div class="bd undis">
+                                    {foreach from=$subject item="s"}
+                                    <dl>
+                                        <dt><a href="javascript:void(0)">{$s.name}</a></dt>
+                                        <dd>
+                                            {foreach from=$s.child item=c}
+                                            <a href="{$c.url}">{$c.subject}</a>
+                                            {/foreach}
+                                        </dd>
+                                    </dl>
+                                    {/foreach}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 当前学科结束 -->
+                    <ul>
+                        <li name="paper_question" class="ico_person">
+                            <a class="ico_person" href="{$menu1.url}">{$menu1.name}</a>
+                        </li>
+                        <li name="paper_search" class="ico_seachChoose">
+                            <a class="ico_seachChoose" href="{$menu2.url}">{$menu2.name}</a>
+                        </li>
+                        <li name="paper_intelligent" class="ico_brain">
+                            <a class="ico_brain" href="{$menu3.url}">{$menu3.name}</a>
+                        </li>
+                    </ul>
+                    <div class="question-cart"></div>
+                    <div class="preview-btn">
+                        <a class="cBtnfixed184" href="{$menu4.url}">{$menu4.name}</a>
+                    </div>
+                    <ul>
+                        <li name="paper_archive" class="ico_jobFile">
+                            <a class="ico_jobFile" href="{$menu5.url}">{$menu5.name}</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--个人中心结束-->
+                <!--/template--></div>
+        </div>
+    </div>
+    <!--template-->
+    <script type="remark-template" id="question_cart_content">
+        {literal}<h4>已选试题(<span>{$question_total}</span>)<a href="javascript:void(0)" class="green-text empty-btn">全部清空</a></h4>
+        <div class="question-table">
+            <table class="data-table">
+                {foreach from=$question_type_list key=key name=name item="list"}
+                <tr>
+                    <td class="first-col" id="left-question-cart-name{$list.id}">{$list.name}</td>
+                    <td class="second-col">{$list.count}</td>
+                    <td class="third-col">
+                        <div class="percent-line">
+                            <div class="percent-text"><span>0</span>%</div>
+                        </div>
+                    </td>
+                    <td class="forth-col"><a href="javascript:void(0)" class="del-btn" data-id="{$list.id}">删除</a></td>
+                </tr>
+                {/foreach}
+            </table>
+        </div>{/literal}
+        </script>
+    <!--/template-->
+    <!--js引入开始-->
+    <script type="text/javascript" src="../../Module/global/jquery-1.8.2.min.js"></script>
+    <!--公共方法以及非老师、学生、家长三端的js放到common.js-->
+    <script type="text/javascript" src="../../Module/global/common.js"></script>
+    <script type="text/javascript" src="../../Build/jsmart.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿
+/*----------------------------------------------- 篇章评测 ---------------------------------------------*/
+.speech-chap {
+    
+}
+
+.speech-chap-para {
+    font-size:16px;
+    cursor: default;
+}
+
+.speech-chap-sen {
+    
+}
+
+/* 单词检查 */
+.word-checking {
+    color:#cc7700
+}
+
+/* 单词读过 */
+.word-read {
+    color:#007799;
+}
+
+/* 单词重读 */
+.word-reread {
+    color:#0022FF;
+}
+
+/*----------------------------------------------- 句子评测 ---------------------------------------------*/
+.speech-sentence {
+    
+}
+
+
+.speech-sentence-sen {
+    border-bottom: 1px solid #a6c9e2;
+    margin: 10px 0px;
+    padding: 2px;
+    display: block;
+    font-size:16px;
+    cursor:default;
+}
+
+/*----------------------------------------------- 单词评测 ---------------------------------------------*/
+.speech-words-word {
+    border: 2px solid #a6c9e2;
+    margin: 10px;
+    padding: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2e6ece;
+    display: block;
+    float: left;
+    cursor: default;
+}

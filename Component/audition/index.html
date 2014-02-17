@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="audition"></div>
+<script type="remark-template" id="audwindow">
+    <div class="pop_audbox_wy" style="width:767px; height:512px;">
+        <div class="pop_tab">
+            <div class="tit">自动试音</div>
+            <div class="close" id="audition_close" onmouseover="this.className='close_hover'"
+                 onmouseout="this.className='close'"></div>
+            <div class="clear"></div>
+        </div>
+        <div class="main" id="audition_show">
+        </div>
+    </div>
+</script>
+<script type="remark-template" id="step0">
+    <div class="top">
+        <div class="tit">正确使用麦克风</div>
+        <div class="tit2">请使用推荐类型的麦克风</div>
+    </div>
+    <div class="down">
+        <div class="down_type">svn
+            <ul>
+                <li>
+                    <div class="img"><img src="{$imagePath}/step1_img1.jpg"/></div>
+                    <div class="tit">
+                        <span>麦克风类型1</span>
+
+                        <p>推荐类型</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><img src="{$imagePath}/step1_img2.jpg"/></div>
+                    <div class="tit">
+                        <span>麦克风类型2</span>
+
+                        <p>推荐类型</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><img src="{$imagePath}/step1_img3_1.jpg"/></div>
+                    <div class="tit">
+                        <span>麦克风类型3</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><img src="{$imagePath}/step1_img4.jpg"/></div>
+                    <div class="tit">
+                        <span>麦克风类型4</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="tips">
+            <div class="step1_con">
+                <div class="btn">
+                    <div class="right btn_startbox">
+                        <div name="divSkip" class="btn_small btn_sgray_nor"
+                             onmouseover="this.className='btn_small btn_sgray_hov'"
+                             onmouseout="this.className='btn_small btn_sgray_nor'"><a name="btnSkip"
+                                                                                      href="javascript:void(0);"
+                                                                                      class="graytxt">跳过试音</a>
+                        </div>
+                        <div class="aud_prompt">
+                            <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="step0_next" class="btn_small btn_sblue_nor"
+                             onmouseover="this.className='btn_small btn_sblue_hov'"
+                             onmouseout="this.className='btn_small btn_sblue_nor'"><a href="javascript:void(0);"
+                                                                                      class="whitetxt">下一步</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</script>
+
+<script type="remark-template" id="step1">
+    <div class="top">
+        <div class="top_tab">
+            <div class="tit">正确使用麦克风</div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="down_audition"><img src="{$imagePath}/audition_big.jpg"/></div>
+        <div class="tips2">
+            <div class="tips2_title">正确佩戴麦克风:</div>
+            <div class="step1_con2">
+                <div class="list">
+                    <p>保持麦克风距离你的嘴2-3cm。</p>
+
+                    <p>不要直接对着麦克风呼吸。</p>
+
+                    <p>确保你的麦克风有声音。</p>
+                </div>
+                <div class="btn">
+
+                    <div class="right btn_startbox">
+                        <div name="divSkip" class="btn_small btn_sgray_nor"
+                             onmouseover="this.className='btn_small btn_sgray_hov'"
+                             onmouseout="this.className='btn_small btn_sgray_nor'"><a name="btnSkip"
+                                                                                      href="javascript:void(0);"
+                                                                                      class="graytxt">跳过试音</a>
+                        </div>
+                        <div class="aud_prompt">
+                            <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="right ml20">
+                        <div id="step1_next" class="btn_small btn_sblue_nor"
+                             onmouseover="this.className='btn_small btn_sblue_hov'"
+                             onmouseout="this.className='btn_small btn_sblue_nor'"><a href="javascript:void(0);"
+                                                                                      class="whitetxt">下一步</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="step1_pre" class="btn_small btn_sblue_nor"
+                             onmouseover="this.className='btn_small btn_sblue_hov'"
+                             onmouseout="this.className='btn_small btn_sblue_nor'"><a href="javascript:void(0);"
+                                                                                      class="whitetxt">上一步</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</script>
+
+<script type="remark-template" id="step2">
+    <div class="top">
+        <div class="top_tab">
+            <div class="tit">设置录音音量</div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="step2_left">
+            <div class="step2_line pb10"><span><img src="{$imagePath}/step2_icon1.gif"/></span><img
+                    src="{$imagePath}/step2_img1.jpg"/></div>
+            <div class="step2_line"><span><img src="{$imagePath}/step2_icon2.gif"/></span><img
+                    src="{$imagePath}/step2_img3.jpg"/>
+            </div>
+        </div>
+        <div class="step2_right">
+            <p class="ts">请完成下面窗口中的设定:</p>
+
+            <div style="width:420px; height:250px;">
+                <div id="recorder-panel-outter"
+                     style="width: 1px; height: 1px; position: relative; top: 3px; left: 2px; wmode: transparent; z-index: 500; _position: fixed; _top: 3px; _left: 2px;">
+                    <div id="recorder"></div>
+                </div>
+
+                <div id="player"
+                     style="width: 1px; height: 1px; position: relative; top: 1px; left: 99%; wmode: transparent; z-index: 500; _top: 1px; _left: 99%;"></div>
+
+            </div>
+            <div class="down">
+                <div class="txt">请按照左边的说明进行设置，然后点击<span class="red">“关闭”</span>按钮。</div>
+                <div class="btn">
+                    <div class="right btn_startbox">
+                        <div name="divSkip" class="btn_small btn_sgray_dis">
+                            <a name="btnSkip" href="javascript:void(0);" class="graytxt">跳过试音</a>
+                        </div>
+                        <div class="aud_prompt">
+                            <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="right ml20">
+                        <div id="step2_next" class="btn_small btn_sblue_dis">
+                            <a href="javascript:void(0);" class="whitetxt">下一步</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div id="step2_pre" class="btn_small btn_sblue_dis"><a href="javascript:void(0);"
+                                                                               class="whitetxt">上一步</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</script>
+
+<script type="remark-template" id="step3">
+    <div id="recorder-panel-outter"
+         style="width: 1px; height: 1px; position: relative; top: 3px; left: 2px; wmode: transparent; z-index: 500; _position: fixed; _top: 3px; _left: 2px;">
+        <div id="recorder"></div>
+    </div>
+
+    <div id="player"
+         style="width: 1px; height: 1px; position: relative; top: 1px; left: 99%; wmode: transparent; z-index: 500; _top: 1px; _left: 99%;"></div>
+
+
+    <div class="top">
+        <div class="top_tab">
+            <div class="tit">检查电脑录音音量</div>
+            <div class="tit2">检查你的电脑声音</div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="step2_con">
+            <div>
+                <div class="left"><img width="180" height="138" src="{$imagePath}/step1_img3.jpg"/></div>
+                <div class="testbox">
+                    <div class="tit">请阅读下面的例句:</div>
+                    <div class="greenfont">
+                        <p>假如我是一只小鸟，我要飞向大海。在那里，我要和鱼儿比赛。看看是我飞得快，还是鱼儿们游得远。</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="bot_btn">
+            <div class="btn">
+                <div class="right btn_startbox">
+                    <div name="divSkip" class="btn_small btn_sgray_dis">
+                        <a name="btnSkip" href="javascript:void(0);" class="graytxt">跳过试音</a></div>
+                    <div class="aud_prompt">
+                        <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="step3_pre" class="btn_small btn_sblue_dis"><a href="javascript:void(0);" class="whitetxt">上一步</a>
+                    </div>
+                </div>
+                <div class="kssy_rgt">
+                    <div id="start_recorder" class="btn_audsytle2 btn_sgre_dis">
+                        <a id="btn_audStart" href="javascript:void(0);" class="whitetxt2">开始试音</a></div>
+
+                    <div class="mp_box" id="recorder_count_down" style="display:none;">
+                        <div class="mp_aud">
+                            <div class="mic_white_tm">
+                                <div id="recBarVol" class="mic_white"></div>
+                            </div>
+                        </div>
+                        <div class="mp_time">
+                            剩余<span id="countDown" class="pl10">1秒</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</script>
+
+<script type="remark-template" id="step4">
+
+    <div class="top">
+        <div class="top_tab">
+            <div class="tit">检查电脑录音音量</div>
+            <div class="tit2">检查你的电脑声音</div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="step2_con">
+            <div>
+                <div class="left"><img width="180" height="138" src="{$imagePath}/step1_img3.jpg"/></div>
+                <div class="testbox">
+                    <div class="tit">Flash播放器设置不正确。</div>
+                    <div class="greenfont">请重新根据指令,点击“重置”按钮开始。</div>
+                    <div class="greenfont">如有疑问查看<a style="color: red;text-decoration: underline;" target="_blank"
+                                                    href="./apply.php?appid=help:QA">常见问题解答</a></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="bot_btn">
+            <div class="btn">
+                <div class="right btn_startbox">
+                    <div name="divSkip" class="btn_small btn_sgray_nor"
+                         onmouseover="this.className='btn_small btn_sgray_hov'"
+                         onmouseout="this.className='btn_small btn_sgray_nor'">
+                        <a name="btnSkip" href="javascript:void(0);" class="graytxt">跳过试音</a>
+                    </div>
+                    <div class="aud_prompt">
+                        <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="step4_pre" class="btn_small btn_sblue_nor"
+                         onmouseover="this.className='btn_small btn_sblue_hov'"
+                         onmouseout="this.className='btn_small btn_sblue_nor'">
+                        <a href="javascript:void(0);" class="whitetxt">重置</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</script>
+
+<script type="remark-template" id="step5">
+    <div class="pop_audimgbox">
+        <div class="pop_audimg_sb">
+            <div class="failtxt" id="errorMsg"></div>
+        </div>
+    </div>
+    <div class="btn_audbox">
+        <div class="left">
+            <div id="step5_pre" class="btn_audsytle btn_gnaud_nor"
+                 onmouseover="this.className='btn_audsytle btn_gnaud_hov'"
+                 onmouseout="this.className='btn_audsytle btn_gnaud_nor'"><a href="javascript:void(0);"
+                                                                             class="whitetxt">重试</a></div>
+        </div>
+        <div class="left btn_startbox">
+            <div name="divSkip" class="btn_audsytle btn_gyaud_nor"
+                 onmouseover="this.className='btn_audsytle btn_gyaud_hov'"
+                 onmouseout="this.className='btn_audsytle btn_gyaud_nor'"><a name="btnSkip" href="javascript:void(0);"
+                                                                             class="graytxt">跳过试音</a>
+            </div>
+            <div class="aud_prompt"><input name="skipChk" type="checkbox" value="不再提示"/><span class="pl4">不再提示</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</script>
+
+<script type="remark-template" id="step6">
+    <div class="pop_audimgbox">
+        <div class="pop_audimg_cg">&nbsp;</div>
+        <div class="pt50">
+            <div class="btn_audcenter">
+                <div id="end_aud_suc" class="btn_audsytle btn_gnaud_nor"
+                     onmouseover="this.className='btn_audsytle btn_gnaud_hov'"
+                     onmouseout="this.className='btn_audsytle btn_gnaud_nor'"><a href="javascript:void(0);"
+                                                                                 class="whitetxt">开始做作业</a></div>
+            </div>
+        </div>
+    </div>
+</script>
+<script type="remark-template" id="step7">
+
+    <div class="top">
+        <div class="top_tab">
+            <div class="tit">检查电脑录音音量</div>
+            <div class="tit2">检查你的电脑声音</div>
+        </div>
+    </div>
+    <div class="down">
+        <div class="step2_con">
+            <div>
+                <div class="left"><img width="180" height="138" src="{$imagePath}/step1_img3.jpg"/></div>
+                <div class="testbox">
+                    <div class="tit">没有检查到您的麦克风。</div>
+                    <div class="greenfont">请确保您的麦克风连接正常后，再点击“重置”按钮重新设置。</div>
+                    <div class="greenfont">如有疑问查看<a style="color: red;text-decoration: underline;" target="_blank"
+                                                    href="./apply.php?appid=help:QA">常见问题解答</a></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="bot_btn">
+            <div class="btn">
+                <div class="right btn_startbox">
+                    <div name="divSkip" class="btn_small btn_sgray_nor"
+                         onmouseover="this.className='btn_small btn_sgray_hov'"
+                         onmouseout="this.className='btn_small btn_sgray_nor'">
+                        <a name="btnSkip" href="javascript:void(0);" class="graytxt">跳过试音</a>
+                    </div>
+                    <div class="aud_prompt">
+                        <input name="skipChk" type="checkbox" value="不再提示"/><span class="left pl4">不再提示</span>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="step7_pre" class="btn_small btn_sblue_nor"
+                         onmouseover="this.className='btn_small btn_sblue_hov'"
+                         onmouseout="this.className='btn_small btn_sblue_nor'">
+                        <a href="javascript:void(0);" class="whitetxt">重置</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</script>
+<script src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../Build/template.js"></script>
+<script type="text/javascript" src="settings.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/SpeechJS.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/Adapter/commAdapter.js"></script>
+<script type="text/javascript" src="speech/SpeechRecorder/swfobject.js"></script>
+<script type="text/javascript" src="speech/SpeechRecorder/SpeechRecorder.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/Adapter/SpeechRecorderAdapter.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/Adapter/AndroidRecorderAdapter.js"></script>
+<script type="text/javascript" src="speech/iFlyPlayer/jwplayer/jwplayer.js"></script>
+<script type="text/javascript" src="speech/iFlyPlayer/iFlyPlayer.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/Adapter/JWPlayerAdapter.js"></script>
+<script type="text/javascript" src="speech/SpeechJS/Adapter/AndroidPlayerAdapter.js"></script>
+<script type="text/javascript">
+
+    function CallBack() {
+        alert("模版外部回调==============CallBack!");
+    }
+</script>
+<script type="text/javascript">
+    var __attr__ = __attr__ || {};
+    __attr__["Component_audition"] = __attr__["Component_audition"] || {}
+    __attr__["Component_audition"]["imagePath"] = './images';
+    __attr__["Component_audition"]["callback"] = 'CallBack';
+    ;</script>
+<script type="text/javascript" src="index.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[
+    {"key":/\/index\.php\?Module=(\w+)&action=(\d+)/i,"value":"data_$1_$2.json"},
+    {"key":"/index.php?Module=1&action=1","value":"data.json"}
+]

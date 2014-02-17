@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>知识点选题-梯子网</title>
+    <!--全站的公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="../global/base.css" />
+    <!--老师端的公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="common.css" />
+    <!--老师端的非公共样式文件-->
+    <link rel="stylesheet" type="text/css" href="teacher.css" />
+    <script type="text/javascript" src="../global/jquery-1.8.2.min.js"></script>
+    <!--引入artdialog插件-->
+    <script type="text/javascript" src="../global/jquery.artDialog.source.js"></script>
+    <script type="text/javascript" src="../../Build/jsmart.js"></script>
+</head>
+
+<body class="headerQuestion">
+
+<span style="display:none;" id="base-url-con" tzid="TZID" tzu="TZU">http://www.tizi.com/</span>
+<span class="token" id="c8889f634b5ab259f9330964aee310d5"></span>
+<span class="pname" id="95c3bae84d6f8c8ae59d50b1376c1da4"></span>
+<div class="header cf l50">
+    <h1 class="fl">
+        <a href="http://www.tizi.com/teacher/paper/question">梯子</a>
+    </h1>
+    <ul class="fl">
+        <li class="question"><a href="http://www.tizi.com/teacher/paper/question"><span>出卷子</span></a></li>
+        <li class="prepare"><a href="http://www.tizi.com/teacher/lesson/prepare"><span>备课</span></a></li>
+        <li class="exercise"><a href="http://www.tizi.com/teacher/homework/center"><span>留作业</span></a></li>
+        <li class="manage"><a href="http://www.tizi.com/teacher/class/my"><span>班级管理</span></a></li>
+        <li class="member"><a href="http://www.tizi.com/teacher/user/setting"><span>个人中心</span></a></li>
+    </ul>
+    <div class="nav fr">
+        <!--用户下拉菜单开始-->
+        <div class="posr" id="navSlidown">
+            <span id="tiziUrname">asdfasdf</span>
+            <p class="undis">
+                <a href="http://www.tizi.com/teacher/user/myquestion">我的题库</a>
+                <a href="http://www.tizi.com/teacher/user/mydocument">我的文档库</a>
+                <a class="tab add" href="http://www.tizi.com/teacher/user/setting">个人资料</a>
+                <a class="tab loginout" href="http://www.tizi.com/logout">退出登录</a>
+            </p>
+        </div>
+        <!--用户下拉菜单结束-->
+    </div>
+    <p class="fr">
+        <a id="notification" href="http://www.tizi.com/teacher/user/notification"><span class="noticeMsg"></span></a>
+        <a href="javascript:void(0);" class="cBtnFeedback">反馈</a>|
+        <a href="http://www.tizi.com/about/contact" target="_blank">合作</a>|
+        <a href="http://www.tizi.com/about/join" target="_blank">加入我们</a>
+    </p>
+</div>
+
+<!--主要部分开始-->
+<div class="wrap">
+    <div class="mainContent fl">
+        <div class="mainWrap main-wrap">
+
+            <div class="mainContainer" pagename="paper_question" status="paper_question">
+                <div class="child-content fn-clear">
+                    <div class="content">
+                        <div class="content-wrap">
+                            <div class="filter-box">
+                                <ul class="fn-clear">
+                                    <li><a href="javascript:void(0)"  class="active"  data-qtype="0">全部题型</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="3">单选题</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="8">现代文阅读</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="9">文言文阅读</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="10">诗歌鉴赏</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="11">语言表达</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="12">名著导读</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="13">默写</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="14">书写</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="16">作文</a></li>
+                                    <li><a href="javascript:void(0)"  data-qtype="1">其他</a></li>
+
+                                </ul>
+                                <ul class="fn-clear">
+                                    <li><a href="javascript:void(0)"  class="active"  data-qlevel="0">全部难度</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="1">容易</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="2">较易</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="3">一般</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="4">较难</a></li>
+                                    <li><a href="javascript:void(0)"  data-qlevel="5">困难</a></li>
+                                </ul>
+                            </div>
+                            <div class="question-list"></div>
+                        </div>
+                    </div>
+                    <div class="child-menu">
+                        <div class="drag-line"><a class="drag-handle"></a></div>
+                        <div class="type-box fn-clear">
+                            <div class="type-list">
+                                <!-- 不能删除的a开始 -->
+                                <a class="current-type" style="display:none" data-cselect="1" data-sid="1"><span>初中语文综合库</span></a>
+                                <!-- 不能删除的a结束 -->
+                                <select name="" id="" onchange="top.location=this.value;">
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/1"selected>
+                                        初中语文综合库
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/11242">
+                                        初中语文鲁教版
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/11754">
+                                        初中语文苏教版
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/14771">
+                                        初中语文北师大版
+                                    </option>
+                                    <option value="http://www.tizi.com/teacher/paper/question/1/15178">
+                                        初中语文人教版
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="tree-list">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="leftBar fl">
+        <div class="mainMenu main-menu fl">
+            <!--个人中心开始-->
+            {include file="Component/TeacherSiderBar/index.html"}
+            <!--个人中心结束-->
+        </div>
+        <div class="hidden-arrow fl"><a class="hide-menu"></a></div>
+    </div>
+</div>
+<!--主要部分结束-->
+<div id="errormsg" style="display:none"></div>
+<div id="footer" class="footer">
+    <a href="http://www.tizi.com/about/us" target="_blank">关于我们</a> | <a href="http://www.tizi.com/about/report" target="_blank">媒体报道</a> | <a href="http://www.tizi.com/about/school" target="_blank">团体帐户申请</a> | <a href="http://www.tizi.com/about/contact" target="_blank">合作</a> | <a href="http://www.tizi.com/about/join" target="_blank">加入我们</a> | <a class="cBtnFeedback" href="javascript:void(0);">反馈</a> | 	<span>©2013 tizi</span>
+    <span>京ICP备12050551号</span>
+    <span>京公网安备11010802012731号</span>
+</div>
+
+<!--js引入开始-->
+
+<script type="text/template" id="crumb-line-content">
+    <a href="#">知识点选题</a> <%#breadcrumb%>/ <a href="#"><%.%></a> <%/breadcrumb%>
+</script>
+
+<!--引入Validform_v5.3.2_min插件-->
+<script type="text/javascript" src="../global/Validform_v5.3.2.js"></script>
+<!--引入cookie插件-->
+<script type="text/javascript" src="../global/jquery.cookies.js"></script>
+<!--公共方法以及非老师、学生、家长三端的js放到common.js-->
+<script type="text/javascript" src="../global/common.js"></script>
+<!-- 解决ie6下出卷子预览页面错位 开始 -->
+<!--[if IE 6]>
+<script type="text/javascript">
+    if($('.reset-btn').length > 0 && $('.question-item-box').length > 0){
+        $('.mainContent .mainWrap').css('margin-left','170px');
+        $('.leftBar').css('left','-40px');
+    }
+</script>
+<![endif]-->
+<!-- 解决ie6下出卷子预览页面错位 结束 -->
+<script type="text/template" id="tree-list-content">
+    <ul style="display:block;">
+        <%#category%>
+        <li class="fn-clear"><div class="fn-clear tree-title<%depth%>"><a href="javascript:void(0)" class="icon <%is_leaf%>" data-url_id="<%id%>"></a><a href="javascript:void(0)" class="item" data-nselect="<%id%>"><%name%></a></div></li>
+        <%/category%>
+    </ul>
+</script>
+
+<script type="text/javascript" src="index.js"></script>
+<!--js引入结束-->
+</body>
+</html>
